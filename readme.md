@@ -1,27 +1,10 @@
-# Factchecker's Schema.org ClaimReview manager for WordPress
-
-## NOTE: developer edition
-This is a new plugin and we are testing it in the wild before releasing it as a plugin in the WordPress plugin repository. 
-
-Please install on your site, or in staging, and feel free to contribute with Pull Requests and become a contributor. 
+# Schema.org Fact Checking para WordPress
 
 
-## About this plugin
+## Sobre o plugin
 This is a WordPress plugin that allows publishers to add the new  [ClaimReview - schema.org](http://schema.org/ClaimReview) schema for publishing factchecking reports to their posts. 
 
 You can read more about the labeling of fact checking articles in [Labeling fact-check articles in Google News](https://blog.google/topics/journalism-news/labeling-fact-check-articles-google-news/).
-
-
-
-## Installing on a website
-
-> This is currently a work in development - and while it should be fine to use with your site - it has not yet been released as a WordPress plugin. 
-
-
-### Plugin and Settings 
-1. copy the [`plugins/wp-factchecker-claim-review`](plugins/wp-factchecker-claim-review) folder to your site's plugin folder
-2. Activate the plugin via the WordPress plugin settings
-3. Under **Settings > Factchecker ClaimReview Settings** set your organisation detail, and choose the post types that will have ClaimReview schema 
 
 
 ### Adding ClaimReview Schema to posts
@@ -44,19 +27,6 @@ To make development easier I have added a [`docker-compose` configuration](./doc
 
 This is not a requirement, but I find it a useful way to work. [Read more about setting up docker in your development environment](https://www.docker.com)
 
-
-### Development approach
-I think it's important to have this as a zero-dependency plugin, so it can have as low a barrier to adoption as possible. I have therefore not used any 3rd-party plugins for things like custom fields or JavaScript - only what is available with a standard WordPress plugin. 
-
-
-
-### TODO:
-
-- [ ] Translations
-- [ ] More configurable/complete Schema options
-- [ ] ... others? 
-
-Please raise any bugs or feature requests in [issues](https://github.com/admataz/wp-factchecker-claim-review/issues). 
 
 ## Copyright and License
 
